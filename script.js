@@ -16,3 +16,11 @@ btnNo.onmouseover= ()=>{
     btnNo.style.left = `${random}px`;
     
 }
+
+btnYes.onclick = () => {
+    // First show alert on YOUR page
+    alert("Please add friend to me");
+
+    // Then go to Facebook
+    window.location.href = 'https://web.facebook.com/rak.smey.155354';
+}
